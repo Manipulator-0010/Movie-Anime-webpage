@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:arial;
+}
+html{
+    scroll-behavior:smooth;
+}
+nav{
+    background:#000;
+    height:70px;
+    width:50%;
+    margin-left:50%;
+    position:fixed;
+}
+.nav-2{
+margin-top:0;
+border:2px solid #ffff00;
+height:70px;
+background:#ffff00;
+float:left;
+width:50%;
+}
+.nav-2 h1{
+    text-align:center;
+    margin-top:10px;
+    font-size:28px;
+    position:relative;
+}
+marquee{
+    position:absolute;
+    margin-top:-7px;
+    color:#5a2a2a;
+    width:50%;
+}
+nav ul{
+    float:right;
+    margin-right:2vw;
+    margin-top:11px;
+}
+nav ul li{
+    display:inline-block;
+    border:2px solid transparent;
+    padding:10px 30px;
+    margin-right:40px;
+    transition:0.9s ease;
+}
+nav ul li:hover{
+    border:2px solid #fff;
+    padding:10px 30px;
+}
+nav ul li:hover a{
+    color:#ffff00;
+    text-decoration:underline;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size:15px;
+}
+#active{
+    border:2px solid #fff;
+}
+.top-image{
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(picture-0.jpg);
+    height:90vh;
+    background-size:cover;
+    background-position:center;
+}
+.anime-border{
+    margin-top:10px;
+    width:100%;
+}
+.flex-0{
+    display:flex;
+    margin-top:5vw;
+    margin-left:5%;
+}
+.flex-0 img{
+    height:250px;
+    width:17%;
+    margin-right:2vw;
+    border-radius:10px;
+    transition:0.7s ease;
+}
+.background{
+    background:url(background.jpg);
+}
+.title-1{
+    margin-top:5vw;
+}
+.title-1 h1{
+    text-align:center;
+    font-size:5vw;
+    color:#87ceeb;;
+    text-shadow:2px 2px 5px #ff0000;
+}
+#dimension:hover{
+    background-image:url(anime-1.jpg);
+    height:320px;
+    width:19%;
+    float:none;
+    box-shadow:5px 5px 70px #87ceeb;
+}
+.flex-1{
+    display:flex;
+    margin-top:7vw;
+}
+#anime-image{
+    margin-left:5%;
+    flex:1;
+}
+#anime-image img{
+    width:90%;
+    height:800px;
+    border-radius:10px;
+    border:2px solid #000;
+    box-shadow:2px 2px 3px #ff0000;
+}
+#anime-paragraph{
+    flex:1;
+    margin-top:-30px;
+    margin-right:150px;
+    float:left;
+}
+#anime-paragraph h1{
+    font-size:4vw;
+    color:#87ceeb;
+    text-align:left;
+}
+#anime-paragraph p{
+    text-align:justify;
+    color:#fff;
+}
+.border-login{
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(background-1.jpg);
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
+    margin-top:8vw;
+    position:relative;
+    border-radius:15px;
+}
+.border-form{
+    border:2px solid #fff;
+    width:28%;
+    height:550px;
+    margin-top:160px;
+    margin-left:36%;
+    position:absolute;
+    border-radius:15px;
+}
+.border-form h1{
+    color:#fff;
+    text-align:center;
+    margin-top:2vw;
+}
+label{
+    color:#fff;
+    margin-left:2vw;
+    margin-top:2vw;
+}
+#user{
+    margin-left:2vw;
+    margin-top:1vw;
+    width:83%;
+    padding:10px 30px;
+    border-radius:10px;
+}
+.login{
+    margin-top:3vw;
+    margin-left:20%;
+}
+.login input{
+    padding:10px 30px;
+    width:70%;
+    border-radius:45px;
+    transition:0.9s ease;
+    background:#ffff00;
+}
+.login:hover input{
+    background:#87ceeb;
+}
+.border-footer{
+    height:800px;
+    width:100%;
+}
+.border-footer img{
+    border-radius:50%;
+    height:120px;
+    margin-left:47%;
+    margin-top:-48px;
+    position:absolute;
+    box-shadow:2px 2px 45px #87ceeb;
+}
+.flex-2{
+    display:flex;
+    margin-left:12%;
+}
+#paragraph h1{
+    color:#fff;
+    margin-top:7vw;
+    color:#87ceeb;
+    font-size:2vw;
+    text-align:center;
+}
+#paragraph p{
+    color:#fff;
+    text-align:justify;
+}
+#paragraph{
+    margin-right:5vw;
+    width:25%;
+}
+.line{
+    color:#fff;
+    margin-top:8vw;
+    text-align:center;
+}
+.profile-1 img{
+    box-shadow:2px 2px 20px #ffa500;
+    margin-top:-70px;
+}
+.future{
+    margin-left:899px;
+}
+.future p{
+    color:#fff;
+    margin-top:78px;
+}
+.footer-1{
+    margin-top:4vw;
+}
+.footer-1 h1{
+    color:#ffa500;
+    font-size:3vw;
+    margin-left:50px;
+}
